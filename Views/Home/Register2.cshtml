@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<style>
+    .lala {
+        box-sizing: border-box;
+        margin-left: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 350px;
+    }
+</style>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register2</title>
+</head>
+<body>
+<div class="lala">
+    <b>THÔNG TIN SINH VIÊN ĐÃ ĐĂNG KÝ</b><br/>
+    Mã sinh viên: @ViewBag.maSV<br/>
+    Họ tên: @ViewBag.hoten<br/>
+    Điểm: @ViewBag.diem&emsp;&emsp; <a href="/Home">Quay lại</a>
+
+</div>
+</body>
+</html>
